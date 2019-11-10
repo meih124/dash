@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+  <title>Mei's page</title>
+  <style>
+    body {
+      text-align: center;
+      background: url("https://i.imgur.com/VaVOIB4.jpg");
+      background-size: cover;
+      background-position: center;
+      color: yellow;
+      font-family: verdana;
+    }
+    input {
+      border: 0;
+      padding: 10px;
+      font-size: 18px;
+    }
+    input[type="submit"] {
+      background: green;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://i.imgur.com/ZH3kB96b.jpg">
+  <h2>Hi! I'm Mei, an aspiring software developer. Please say hello!</h2>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</body>
