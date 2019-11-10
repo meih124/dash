@@ -1,0 +1,89 @@
+/*
+https://dash.generalassemb.ly/meih111/build-your-own-blog-theme
+*/
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://i.imgur.com/rw1BZoW.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid white;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/ZH3kB96b.jpg">
+    <h1>Mei's Food Blog</h1>
+    <ul>
+      <li><a href="#">Best Cheap Eats</a></li>
+      <li><a href="#">All Recent Eats</a></li>
+      <li><a href="#">About Me</a></li>      
+    </ul>
+  </header>
+  <article>
+    <h2>Din Tai Fung (Santa Clara, CA)</h2>
+    <p>Menu: cucumbers, house beef soup, shrimp and pork wonton soup, sauteed kale, crab pork xlb, shrimp fried noodle,  vegetarian dumpling
+    <p>Avoid: shrimp and pork wonton soup (weak soup base), shrimp fried noodle (too much soy sauce)
+    <p>Rating: 4 out of 5 stars    
+    </p>
+    <button>Bookmark it</button>
+  </article>
+  <article>
+    <h2>Koi Palace (Dublin, CA)</h2>
+    <p>Menu: Peking duck, duck with fish maw, duck soup, sea bass, lobster, shrimp fried rice
+    <p>Avoid: duck with fish maw (too much soy sauce), sea bass (tastes too fatty), lobster (small portion size)
+    <p>Rating: 3.5 out of 5 stars
+    </p>
+    <button>Bookmark it</button>
+  </article>
+  <article>
+    <h2>Pho Luc Lac (San Jose, CA)</h2>
+    <p>Menu: spring rolls, combination pho
+    <p>Comments: It was a decent portion size for a large pho, however, the broth was weak.
+    <p>Rating: 3.5 out of 5 stars
+    </p>
+    <button>Bookmark it</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("We love food!!");
+    });
+  </script>
+</body>
