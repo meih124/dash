@@ -76,10 +76,11 @@ https://dash.generalassemb.ly/meih111/build-your-own-blog-theme
   <article>
     <h2>Pho Luc Lac (San Jose, CA)</h2>
     <p>Menu: spring rolls, combination pho
-    <p>Comments: It was a decent portion size for a large pho, however, the broth was weak.
+    <p>Comments: It was a decent portion size for a large pho, however, the broth tasted thin and watery.
     <p>Rating: 3.5 out of 5 stars
     </p>
     <button>Bookmark it</button>
+    <p></br>
   </article>
   <script>
     $("button").on("click", function() {
