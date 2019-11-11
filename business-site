@@ -11,7 +11,7 @@ body {
   font-family: helvetica, sans-serif;
   margin: 0 auto;
   max-width: 600px;
-  background: rgba(256,0,0,.5);
+  background: #483D8B
 }
 div {
   height: 200px;
@@ -29,8 +29,9 @@ h1 {
 }
 h2 {
   text-align: center;
-  color: rgba(0,0,256,.5);
-  margin: 0px 0 70px 0;
+  /*color: rgba(0,0,256,.5);*/
+  color: rgb(255,255,255);
+  margin: 0px 0 50px 0;
 }
 p {
   color: rgba(255,255,255,1);
@@ -44,7 +45,7 @@ p {
   position: absolute;
   bottom: 0;
   margin: 0;
-  height: 30px;
+  height: 25px;
   transition: height .5s;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
@@ -68,7 +69,7 @@ small {
 .second{
   background-image: url("https://i.imgur.com/w4UKK94.jpg");
 }
-.dessert{
+.third{
   background-image: url("https://i.imgur.com/XnhNHgD.jpg");
 }
 .price {
@@ -113,7 +114,7 @@ small {
   <small>Peking duck, duck soup</small></p>
 </div>
   
-<div class="dessert">
+<div class="third">
   <p>Pho Luc Lac <span class="price">$11</span><br />
   <small>Large combination pho</small></p>
 </div>
