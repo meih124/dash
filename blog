@@ -84,7 +84,7 @@ https://dash.generalassemb.ly/meih111/build-your-own-blog-theme
   </article>
   <script>
     $("button").on("click", function() {
-      alert("We love food!!");
+      alert("We love food!! Yum!!");
     });
   </script>
 </body>
